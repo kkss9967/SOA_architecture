@@ -1,0 +1,16 @@
+<frame>
+    <class name="SourceFilter" inputPort="0" outputPort="0">
+        <file name="Students.txt"/>
+    </class>
+    <class name="SourceFilter" inputPort="0" outputPort="0">
+        <file name="Courses.txt"/>
+    </class>
+    <class name="CheckCoursesFilter" inputPort="1" outputPort="1"/>
+    <class name="SinkFilter" inputPort="0" outputPort="0">
+        <file name="Output-1.txt"/>
+    </class>
+    <class name="SinkFilter" inputPort="0" outputPort="0">
+        <file name="Output-2.txt"/>
+    </class>
+
+</frame>

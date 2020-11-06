@@ -1,0 +1,11 @@
+<frame>
+    <class name="SourceFilter" inputPort="0" outputPort="0">
+        <file name="Students.txt"/>
+    </class>
+    <class name="MiddleFilter" inputPort="0" outputPort="0"/>
+    <class name="AddMiddleFilter" inputPort="0" outputPort="0"/>
+    <class name="DeleteFilter" inputPort="0" outputPort="0"/>
+    <class name="SinkFilter" outputPort="0" inputPort="0">
+        <file name="Output.txt"/>
+    </class>
+</frame>
